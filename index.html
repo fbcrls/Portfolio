@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700" rel="stylesheet">
+      <link rel="stylesheet" href="css/index.css">
+	<title>My Portfolio</title>
+</head>
+<body>
+<div class="header">
+        <div class="inner_header">
+            <div class="logo_container">
+                 <h1><a href="index.html">fbcrls</a></h1>
+            </div>
+            	<ul class="navigation">
+                    <a href="#introbox"><li>Introduction</li></a>
+                    <a href="#aboutmebox"><li>About me</li></a>                    
+                    <a href="#workbox"><li>My work</li></a>
+                </ul>
+            </div>
+        </div>
+<div class="introbox">
+		<div class="intro" id="introbox">
+			<video autoplay muted loop id="myVideo">
+  			<source src="video/intro.mp4" type="video/mp4">
+			</video>
+		<div class="introtext">
+			<h2>Hello I'm Fabio</h2>
+			<h1>Web Designer</h1>
+			<p>I'm a junior web & graphic designer. I design front website and simple poster.</p>
+		</div>
+	</div>
+</div>
+<div class="aboutmebox" id="aboutmebox">
+	<div class="aboutme" data-aos="fade-left" id="aboutmebox">
+		<img src="images/aboutme2.jpg">
+		<div class="aboutmetext">
+		<h2>About me</h2>
+		<p>My name is Fabio Carlos. I currently studying Diploma Computer Science in Universti Selangor. I live in Seri Kembangan but i call many places home. I started programming since 16 years old. At the same time, I love to edit an image to make it cooler. My ambition is become a successful web developer & graphic designer. Oh! I write article too! Dont forget to check it out.</p>
+		</div>
+		<div class="aboutmebutton1">
+			<form action="#">
+			<input type="submit" name="contact" class="btn btn-primary btn-block" value="Contact Me">
+			</form>
+		</div>
+		<div class="aboutmebutton2">
+			<form action="https://sembangit.home.blog/">
+			<input type="submit" name="article" class="btn btn-primary btn-block" value="Check My Article">
+			</form>
+		</div>
+	</div>
+</div>
+<div class="workbox" id="workbox">
+	<div class="project" data-aos="fade-up">
+		<h1>My work</h1>
+	</div>
+	<div class="project1" data-aos="fade-up">
+		<p>Some of my latest work</p>
+	</div>
+	<div class="project2" data-aos="fade-right">
+		<h1>"COMING SOON"</h1>
+	</div>
+</div>
+<script>
+	AOS.init();
+</script>
+</body>
+</html>

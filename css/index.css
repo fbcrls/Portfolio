@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+html,body{
+    min-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ECF0F1; 
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #2E86C1;
+    opacity: 0.7;
+    position: fixed;
+    z-index: 3;
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+.logo_container a {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span {
+    font-weight: 800;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a:last-child {
+    padding-right: 0;
+}
+
+.navigation a li {
+    display: table-cell; 
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.navigation a li:hover {
+color: #5DADE2;
+}
+
+.introbox{
+    height: 700px;
+    background-color: #626567;
+}
+.introbox h2{
+    font-family: 'Montserrat';
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 320;
+}
+.introbox h1{
+    font-family: 'Montserrat';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.introbox p{
+    font-family: 'Montserrat';
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#myVideo {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 700px;
+  object-fit: fill;
+  z-index: 1;
+}
+.aboutmebox{
+    height: 700px;
+    background-color: white;
+}
+.aboutmebox img{
+    height: 600px; width: 600px; overflow: hidden;
+}
+.aboutmetext h2{
+    font-family: 'Montserrat';
+    text-align: left;
+    position: absolute;
+    padding-bottom: 830px;
+    padding-right: 100px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    font-size: 40px;
+}
+.aboutmetext p{
+    font-family: 'Montserrat';
+    position: absolute;
+    padding-bottom: 520px;
+    padding-left: 175px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    color: black;
+    font-size: 20px;
+}
+.aboutmebutton1 input{
+    font-family: 'Montserrat';
+    background-color: #2E86C1; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    margin-right: 30px;
+    top: 80%;
+    left: 37.8%;
+}
+.aboutmebutton2 input{
+    font-family: 'Montserrat';
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: solid;
+    outline-color: #2E86C1;
+    position: absolute;
+    margin-right: 30px;
+    top: 80.5%;
+    left: 52%;
+}
+.workbox{
+    height: 700px;
+    background-color: #2E86C1;
+}
+.workbox h1{
+    font-family: 'Montserrat';
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    font-weight: 500;
+}
+.project1 p {
+    font-family: 'Montserrat';
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 50;
+}
+.project2 h1{
+    font-family: 'Montserrat';
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+}
+.footer{
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 20px 0;
+  box-sizing: border-box;
+  background-color: #18181a;
+} 
+.copyright{
+  font-family: 'Montserrat';
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
