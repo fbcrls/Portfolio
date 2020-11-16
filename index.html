@@ -4,6 +4,7 @@
 	  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700" rel="stylesheet">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="css/index.css">
 	<title>My Portfolio</title>
 </head>
@@ -11,44 +12,51 @@
 <div class="header">
         <div class="inner_header">
             <div class="logo_container">
-                 <h1><a href="index.html">Portfolio</a></h1>
+                 <h1><a href="index.html">FBCRLS</a></h1>
             </div>
             	<ul class="navigation">
-                    <a href="#introbox"><li>Introduction</li></a>
                     <a href="#aboutmebox"><li>About me</li></a>                    
                     <a href="#workbox"><li>My work</li></a>
                 </ul>
             </div>
         </div>
 <div class="introbox">
-		<div class="intro" id="introbox">
+		<div class="intro">
 			<video autoplay muted loop id="myVideo">
   			<source src="video/intro.mp4" type="video/mp4">
 			</video>
+		</div>
 		<div class="introtext">
 			<h2>Hello I'm Fabio</h2>
 			<h1>Web Designer</h1>
 			<p>I'm a junior web designer. I design front website with HTML, CSS and JS.</p>
 		</div>
 	</div>
+	<div class="socmed" data-aos="fade-up">
+	<a href="#" class="fa fa-facebook"></a>
+	<a href="#" class="fa fa-twitter"></a>
+	<a href="#" class="fa fa-instagram"></a>
+ </div>
 </div>
 <div class="aboutmebox" id="aboutmebox">
-	<div class="aboutme" data-aos="fade-left" id="aboutmebox">
-		<img src="images/aboutme2.jpg">
-		<div class="aboutmetext">
-		<h2>About me</h2>
+	<div class="aboutmetext1" data-aos="fade-left">
+		<h1>About me</h1>
+	</div>
+	<div class="aboutmetext2" data-aos="fade-left">
 		<p>My name is Fabio Carlos. I currently studying Diploma Computer Science in Universti Selangor. I live in Seri Kembangan but i call many places home. I started programming since 16 years old. At the same time, I love to edit an image to make it cooler. My ambition is become a successful web developer & graphic designer. Oh! I write article too! Dont forget to check it out.</p>
-		</div>
-		<div class="aboutmebutton1">
-			<form action="#">
-			<input type="submit" name="contact" class="btn btn-primary btn-block" value="Contact Me">
-			</form>
-		</div>
-		<div class="aboutmebutton2">
-			<form action="https://sembangit.home.blog/">
-			<input type="submit" name="article" class="btn btn-primary btn-block" value="Check My Article">
-			</form>
-		</div>
+	</div>
+	<div class="aboutmeimg" data-aos="fade-right">
+		<img src="images/aboutme.jpg" height="400px" width="400px">
+	</div>
+	<div class="aboutmebutton1" data-aos="fade-up">
+		<form action="#">
+			<input type="submit" name="contact" class="btn btn-primary btn-block" value="Download CV">
+		</form>
+	</div>
+	<div class="aboutmebutton2" data-aos="fade-up">
+		<form action="#">
+			<input type="submit" name="contact" class="btn btn-primary btn-block" value="My Article">
+		</form>
 	</div>
 </div>
 <div class="workbox" id="workbox">
@@ -61,6 +69,8 @@
 	<div class="project2" data-aos="fade-right">
 		<h1>"COMING SOON"</h1>
 	</div>
+	<div class="goup" data-aos="fade-left">
+		<a href="#" class="fa fa-chevron-up"></a>
 </div>
 <script>
 	AOS.init();
