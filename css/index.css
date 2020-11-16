@@ -20,8 +20,6 @@ html,body{
     height: 80px;
     display: block;
     background-color: #2E86C1;
-    opacity: 0.7;
-    position: fixed;
     z-index: 3;
 }
 
@@ -133,35 +131,72 @@ color: #5DADE2;
   object-fit: fill;
   z-index: 1;
 }
-
+.socmed{
+    position: fixed;
+    z-index: 2;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 570px;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 20px;
+}
 .aboutmebox{
     height: 700px;
     background-color: white;
+    position:relative;
+}
+.aboutmetext1{
+    font-family: 'Montserrat';
+    color: black;
+    text-align: left;
+    margin-top: 210px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 550px;
+}
+.aboutmetext2{
+    font-family: 'Montserrat';
+    color: black;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 550px;
+    margin-right: 150px;
 }
 .aboutmebox img{
-    height: 600px; width: 600px; overflow: hidden;
-}
-.aboutmetext h2{
-    font-family: 'Montserrat';
-    text-align: left;
-    position: absolute;
-    padding-bottom: 830px;
-    padding-right: 100px;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: black;
-    font-size: 40px;
-}
-.aboutmetext p{
-    font-family: 'Montserrat';
-    position: absolute;
-    padding-bottom: 520px;
-    padding-left: 175px;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: left;
-    color: black;
-    font-size: 20px;
+    position:absolute;
+    top: -300px;
+    left: 100px;
+    pointer-events: none;
 }
 .aboutmebutton1 input{
     font-family: 'Montserrat';
@@ -173,32 +208,26 @@ color: #5DADE2;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
     outline: none;
-    position: absolute;
-    margin-right: 30px;
-    top: 80%;
-    left: 37.8%;
+    margin-left: 550px;
+    margin-top: 40px;
 }
 .aboutmebutton2 input{
     font-family: 'Montserrat';
-    background-color: white; 
+    background-color: #2E86C1; 
     border: none;
-    color: black;
-    padding: 12px 32px;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
-    outline: solid;
-    outline-color: #2E86C1;
+    outline: none;
+    margin-left: 750px;
+    margin-top: -48px;
     position: absolute;
-    margin-right: 30px;
-    top: 80.5%;
-    left: 52%;
 }
 .workbox{
     height: 700px;
@@ -225,17 +254,14 @@ color: #5DADE2;
     margin-top: 150px;
     font-size: 50px;
 }
-.footer{
-  width: 100%;
-  display: block;
-  overflow: hidden;
-  padding: 20px 0;
-  box-sizing: border-box;
-  background-color: #18181a;
-} 
-.copyright{
-  font-family: 'Montserrat';
-  font-size: 10px;
-  color: white;
-  text-align: center;
+.fa-chevron-up{
+    color: #ECF0F1;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 1250px;
+    margin-top: 250px;
 }
