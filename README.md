@@ -1,2 +1,2 @@
 # Portfolio
- this is my first website
+ This is my portfolio design
